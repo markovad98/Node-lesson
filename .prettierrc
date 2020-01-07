@@ -1,0 +1,19 @@
+{
+    "useTabs": false,
+    "printWidth": 100,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "parser": "typescript",
+    "noSemi": false,
+    "rcVerbose": true,
+    "overrides": [
+        {
+            "files": ".prettierrc",
+            "options": { "parser": "json" }
+        }
+    ]
+}

@@ -31,13 +31,13 @@ const server = http.createServer((req, res) => {
             res.writeHead(200, {
                 'Content-Type': 'text/json',
             });
-
+            
             const users = [
                 { name: 'Alex', age: 21 },
                 { name: 'Dan', age: 21 },
             ];
-
-            res.end(JSON.stringify(users));
+            
+            res.end()
         }
 
         res.end(`

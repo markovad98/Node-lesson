@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
                 { name: 'Dan', age: 21 },
             ];
 
-            res.end(JSON.stringify(users));
+            res.end(JSON.stringify(users);
         }
 
         res.end(`
